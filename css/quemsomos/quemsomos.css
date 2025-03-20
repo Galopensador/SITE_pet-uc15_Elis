@@ -1,0 +1,55 @@
+#quem_somos{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+
+.quem_somos_options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 320px;
+    /* background-color: aliceblue; */
+}
+
+.quem_somos, .atendimento{
+    padding: 40px;
+}
+
+op_desc{
+    padding: 10px 20px 20px 20px;
+    line-height: 28px;
+}
+
+.quem_somos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    background-color: #e6ae6e;
+    border-radius: 4px 0px 0px 4px;
+}
+
+
+.atendimento{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    background-color: #E8A085;
+    border-radius: 0px 4px 4px 0px;  
+}
+
+.quem_somos a{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+.atendimento a{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 7px;
+}
